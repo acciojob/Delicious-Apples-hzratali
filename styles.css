@@ -1,1 +1,72 @@
 /* your code here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.product__photo {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.photo-container {
+    position: relative;
+}
+
+.photo-main img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.photo-album {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.photo-album ul {
+    list-style: none;
+    padding: 0;
+}
+
+.photo-album ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.photo-album ul li img {
+    width: 50px;
+    height: auto;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.product__info {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.title span {
+    font-size: 14px;
+    color: #888
